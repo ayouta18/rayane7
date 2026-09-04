@@ -4,7 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background-color: hwb(324 6% 14%);
+    background-color: #0000;
 }
 #webcam {
     position: fixed;
@@ -42,7 +42,7 @@ body, html {
     z-index: 10;
 }
 .model-selector button {
-    background-color: hwb(324 6% 14%);
+    background-color:#0000;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -54,6 +54,6 @@ body, html {
     backdrop-filter: blur(8px);
 }
 .model-selector button:active {
-    background-color: hwb(324 6% 14% / 0.8);
+    background-color:#0000;
     transform: scale(0.95);
 }
